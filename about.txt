@@ -1,0 +1,50 @@
+=============================================
+Crystals Chocolate Website – HTML & CSS Only
+=============================================
+
+📌 PROJECT OVERVIEW
+-------------------
+Crystals is a fictional and humorous chocolate brand created as a fun, creative HTML & CSS project. The concept is based on a magical chocolate company “approved by unicorns,” blending fun, fantasy, and modern web design.
+
+This project is intended to:
+- Explore HTML and CSS layout and styling.
+- Practice responsive UI without JavaScript.
+- Create a unique, quirky website for portfolio or learning purposes.
+
+🧠 IDEA ORIGIN
+--------------
+This project was created for my sister's school assignment. Her task was to build a unique brand as part of a school project, and I decided to help her by designing a creative and humorous chocolate company website named "Crystals." The idea was to make it fun, magical, and visually appealing using only HTML and CSS.
+
+📁 FILE STRUCTURE
+-----------------
+/project-folder/
+├── index.html           → Home page
+├── style.css            → Stylesheet for the entire site
+├── documentation.txt    → Project documentation (this file)
+└── /images/             → Optional folder for images like chocolates or backgrounds
+
+📦 TOOLS USED
+-------------
+- HTML5
+- CSS3
+
+📌 DESIGN INSPIRATION
+---------------------
+- Pastel and chocolate-like color schemes
+- Fun fonts like Comic Sans and playful emojis
+- Memes and fantasy mixed with food branding
+
+📒 FUTURE IMPROVEMENTS 
+-------------------------------
+- Add responsive design (media queries)
+- CSS animations or transitions
+- Add multiple pages and style consistency
+- Improve accessibility (alt tags, contrast, etc.)
+
+🔖 AUTHOR
+---------
+Project by: Tanushree B
+Tech Stack: Pure HTML & CSS  
+Date: 03-05-2025
+
+✨ Tagline: “Made with drama, glitter, and cocoa.”

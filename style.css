@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #fff0f5, #ffe4e1);
+    color: #4b2e2e;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #8e5555;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    color: #ffe4e1;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:#ffe4e1 ;
+    font-weight: bold;
+    font-size: large;
+    transition: all 0.3s ease;
+  }
+
+  nav a:hover {
+    color:#51211b;
+    transform: scale(1.08);
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 30px;
+    background-image: url('Hero.png');
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  /*.hero h1{
+    color:#290c0c;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px #000;
+  }*/
+  
+  .hero h2 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+    color: #4b2e2e;
+  }
+  
+  .hero p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color:#8b5f65;
+  }
+  
+  .container{
+    background: rgba(255, 255, 255, 0.6); /* White with transparency */
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  }
+
+  button {
+    background-color: #ff6969;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff5768;
+    transform: scale(1.08);
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .about-text {
+    max-width: 600px;
+    margin-left: 30px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  /*For chocolates page*/
+  .section-title {
+    text-align: center;
+    padding: 40px 0 10px;
+    font-size: 2rem;
+    color: #5b2c2c;
+  }
+  
+  .choco-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .choco-card {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .choco-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .choco-card h2 {
+    font-size: 1.2rem;
+    color: #7b3f00;
+  }
+  
+  .choco-card p {
+    font-size: 0.95rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #c0392b;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .btn{
+    text-align: center;
+  }
+
+  /*Shop Form*/
+  .shop-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #ffb6c1;
+  }
+  
+  .shop-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .shop-form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .shop-form input,
+  .shop-form select {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .radio-group {
+    margin-top: 5px;
+  }
+  
+  /*footer*/
+  footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9rem;
+    background-color: #fff0f5;
+    color: #8b5f65;
+  }
+  

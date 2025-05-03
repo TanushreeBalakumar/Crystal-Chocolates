@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop | Crystal Chocolates</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><h3>Crystal</h3></div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="chocolates.html">Our chocolates</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <!--<li><a href="contact.html">Contact</a></li>-->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section-title">
+        <h1>Shop Your Favorite Crystals</h1>
+        <p>Place your order below and treat yourself to edible gems!</p>
+    </section>
+    
+    <section class="shop-form-container">
+        <form class="shop-form">
+          
+          <label for="choco">Choose your chocolate:</label>
+          <select id="choco" name="choco" required>
+            <option value="">-- Select a Chocolate --</option>
+            <option value="choco-gem">Choco Gem</option>
+            <option value="minty-marvel">Minty Marvel</option>
+            <option value="strawberry-sparkle">Strawberry Sparkle</option>
+            <option value="mystery-box">Mystery Box</option>
+            <option value="crunchy-cloud">Crunchy Cloud</option>
+            <option value="hazelnut-hug">Hazelnut Hug</option>
+          </select>
+    
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="1" required>
+    
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label>Payment Method:</label>
+          <div class="radio-group">
+            <label><input type="radio" name="payment" value="cash" required> Cash on delivery</label><br>
+            <label><input type="radio" name="payment" value="online payment"> Online Payment</label>
+          </div><br>
+    
+          <button type="submit">Place Order</button>
+        </form>
+    </section>
+    
+</body>
+</html>
