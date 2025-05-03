@@ -1,10 +1,9 @@
-=============================================
-        Crystals Chocolate Website
+Crystals Chocolate Website
 =============================================
 
 📌 PROJECT OVERVIEW
 -------------------
-Crystals is a fictional and humorous chocolate brand created as a fun, creative HTML & CSS project. The concept is based on a magical chocolate company “approved by unicorns,” blending fun, fantasy, and modern web design.
+Crystals is a fictional and humorous chocolate brand created as a fun, creative HTML & CSS project. The concept is based on blending fun, fantasy, and modern web design.
 
 This project is intended to:
 - Explore HTML and CSS layout and styling.
